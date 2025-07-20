@@ -63,7 +63,34 @@
 
 ### Falcon
 
-[socketry/falcon](https://github.com/socketry/falcon)
+* [socketry/falcon](https://github.com/socketry/falcon)
+* 非同期I/O（async I/O）ベースのWebサーバ・アプリケーションサーバ
+* 作者はSamuel Williams(@ioquatix)
+* Ruby 3.0+のFiber Schedulerを活用
+* 特徴
+    * 高性能な非同期I/O処理
+    * HTTP/1.1、HTTP/2、WebSocketサポート
+    * TLS（SSL）サポート
+    * ファイルサービング機能
+    * リバースプロキシ機能
+    * Virtual Hostサポート
+* アーキテクチャ
+    * Fiber-based並行処理
+    * イベントループベース
+    * ノンブロッキングI/O
+* パフォーマンス
+    * 大量の同時接続に対応
+    * I/Oバウンドなアプリケーションで高性能
+    * メモリ効率が良い
+* 使用場面
+    * マイクロサービス
+    * API server
+    * リアルタイムアプリケーション
+    * 高負荷Webアプリケーション
+* 注意点
+    * Ruby 3.0以降が必要
+    * Fiber Schedulerに対応したgemが必要
+    * まだ比較的新しい技術
 
 ### Itsi
 
