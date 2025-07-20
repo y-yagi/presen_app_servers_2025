@@ -91,6 +91,7 @@
     * Ruby 3.0以降が必要
     * Fiber Schedulerに対応したgemが必要
     * まだ比較的新しい技術
+* [socketry/live](https://github.com/socketry/live?tab=readme-ov-file)
 
 ### Itsi
 
